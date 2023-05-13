@@ -1,0 +1,120 @@
+body{
+   background-color: #f0f2f5 !important;
+
+}
+.loginblock{
+    height: 10%;
+    width: 25%;
+    position: absolute;
+    top: 15%;
+    left: 55%;  
+   
+}
+.fblogin{
+    
+    background-color:white;
+    padding-bottom: 5%;  
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px 1px grey;
+
+
+}
+input:focus{
+    /* border: 5px solid  rgb(48, 48, 223) ; */
+outline: 1px solid #1877F2; 
+box-shadow:1px 0px 0px 2px #6ea4eb83;
+}
+
+.email{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 50px;
+    width: 355px;
+    border-radius: 6px;
+    border:1px solid rgb(216, 213, 213) !important;
+     
+}
+.password{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 50px;
+    width: 355px;
+    border-radius: 6px;
+    border:1px solid rgb(216, 213, 213) !important;
+}
+.signin{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 50px;
+    width: 355px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold !important;
+}
+
+.forgot{
+    margin-top: 15px;
+    text-align: center !important;
+    }
+.forget{
+        text-decoration: none;
+    }
+.create{
+    background-color: #42b72a;
+    margin-top: 8px;
+    margin-left: 85px;
+    height: 50px;
+    width: 205px;
+    border-radius: 6px;
+    border:1px solid grey !important;
+    color: white;
+    font-family:17px Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.create:hover{
+    background-color: #2c9517;
+}
+.pagecreate{
+    margin-left: 45px;
+    font-size: 14px;
+
+}
+.fbname{
+    height: 17%;
+    width: 20%;
+ margin-top:11.2%;
+    margin-left: 17%;
+}
+.description{
+    position: absolute;
+    top: 33%;
+margin-left: 19%;
+font-family: sArial, Helvetica, sans-serif;
+font-size:  28px;
+width: 33%;
+color: #1c1e21;
+
+}
+.footer{
+    position: absolute;
+   top: 90.6%;
+    bottom: 0px;
+    
+    width: 100%;
+    background-color: white;
+    padding-top: 17px;
+    padding-bottom: 160px;
+
+}
+.language,.contact{
+    margin-left: 270px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.ss{
+   width: 68%;
+   margin-left: 273px; 
+   color: gray;
+   
+}

@@ -1,7 +1,9 @@
 body{
+
    background-color: #f0f2f5 !important;
 
 }
+
 .loginblock{
     height: 10%;
     width: 25%;
@@ -11,14 +13,13 @@ body{
    
 }
 .fblogin{
-    
+   
     background-color:white;
     padding-bottom: 5%;  
     border-radius: 8px;
     box-shadow: 2px 2px 12px 1px grey;
-
-
 }
+
 input:focus{
     /* border: 5px solid  rgb(48, 48, 223) ; */
 outline: 1px solid #1877F2; 
@@ -59,9 +60,13 @@ box-shadow:1px 0px 0px 2px #6ea4eb83;
         text-decoration: none;
     }
 .create{
+    
+    align-items: center;
+    align-content: center;
+    text-align: center;
     background-color: #42b72a;
     margin-top: 8px;
-    margin-left: 85px;
+    /* margin-left: 22%; */
     height: 50px;
     width: 205px;
     border-radius: 6px;
@@ -78,20 +83,25 @@ box-shadow:1px 0px 0px 2px #6ea4eb83;
     font-size: 14px;
 
 }
+.logo{
+    height: 2%;
+    width: 58%; 
+    text-align: left;
+ /* margin-top:11.2%; */
+margin-left: -32px; 
+}
+
 .fbname{
-    height: 17%;
-    width: 20%;
- margin-top:11.2%;
-    margin-left: 17%;
+    position:absolute;
+    top: 24%;
+    left: 17%;
+    width: 33%;
 }
 .description{
-    position: absolute;
-    top: 33%;
-margin-left: 19%;
 font-family: sArial, Helvetica, sans-serif;
 font-size:  28px;
-width: 33%;
 color: #1c1e21;
+margin-top: -12px;
 
 }
 .footer{
@@ -111,6 +121,10 @@ color: #1c1e21;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
+.greenBtn{
+    display: flex;
+
+}
 
 .ss{
    width: 68%;
@@ -118,3 +132,66 @@ color: #1c1e21;
    color: gray;
    
 }
+@media screen and (max-width: 1514px) {
+    
+   
+    .loginblock{
+        position: absolute;
+        height: 10%;
+        width: 27%;
+        
+       
+    }
+    .email,.password,.signin{
+        max-width: 90%;
+    }
+    /* .create{ */
+       /* max-block-size: 100%; */
+        /* margin-left: 16%;
+        margin-right: 16%; */
+    
+     /*.create{
+        margin-left: 51px;
+    }
+    .pagecreate{
+        margin-left: 20px;
+    }
+    .description{
+        font-size: 24px;
+    } */
+  }
+
+
+
+  @media screen and (max-width: 986px) {
+    .create{
+        margin-left: 12%;
+    }
+  }
+  @media screen and (min-width: 987px) {
+    .create{
+        margin-left: 19%;
+    }
+  }
+  /* @media screen and (min-width: 1669px)
+  {
+    .email,.password,.signin{
+        width: 390px;
+    }
+    .create{
+        margin-left: 110px;
+    }
+    .description{
+        font-size: 28px;
+
+    }
+    .pagecreate{
+        margin-left: 65px;
+    }
+     */
+    
+
+    
+  /* } */
+
+  

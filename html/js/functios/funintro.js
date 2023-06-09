@@ -38,13 +38,20 @@ callBack(1,callMe())
  // call back
  function parentFun(callback){
     console.log('parent fun')
-    callback
+    callback()
  }
- parentFun(callbackZ())
+ parentFun(function callbackZ(){
+      console.log('im from child call back')
+   })
 
- function callbackZ(){
-    console.log('im from child call back')
- }
+
+ //function funname(callbackfun){
+ //  
+ //}
+//funname(function callbackfun{}
+//)
+
+
 
 
  //arrow funs es6
